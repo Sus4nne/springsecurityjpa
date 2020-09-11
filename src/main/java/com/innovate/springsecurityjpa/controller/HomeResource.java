@@ -13,7 +13,7 @@ public class HomeResource {
 
     @GetMapping("/user")
     public String user() {
-        return  ("<h1>Welcome user</h1>");
+        return  ("<h1>Welcome user</h1> <a href=\"/logout\">Click here to logout</a> ");
     }
 
     @GetMapping("/admin")
